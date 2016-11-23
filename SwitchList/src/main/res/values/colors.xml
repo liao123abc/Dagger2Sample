@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="overlay_selector_pressed">#40000000</color>
+    <color name="window_background">#ff202020</color>
+    <color name="list_divider">#ff555555</color>
+
+    <color name="ege_color">#FCE6C9</color>
+
+
+    <!-- 头像默认背景颜色-->
+    <color name="avatar_0">#F4564C</color>
+    <color name="avatar_1">#EE9A34</color>
+    <color name="avatar_2">#EAC137</color>
+    <color name="avatar_3">#63BF40</color>
+    <color name="avatar_4">#40ABE4</color>
+    <color name="avatar_5">#5C6BC0</color>
+    <color name="avatar_6">#C57BD2</color>
+    <color name="avatar_7">#E3E4E6</color>
+    <color name="avatar_8">#56A0ED</color>
+
+</resources>

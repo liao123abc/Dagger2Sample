@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@drawable/underline"
+        android:layout_height="40dp">
+
+        <CheckBox
+            android:text=""
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox2"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:text="TextView"
+            android:gravity="center|left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView"
+            android:layout_weight="6" />
+
+        <TextView
+            android:text="小计：5656"
+            android:gravity="center|right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView2"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/underline"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:text="分销量"
+            android:gravity="center|left"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView3" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:gravity="center|right"
+            android:background="@android:color/transparent"
+            android:layout_weight="6"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:text="100"
+            android:ems="10"
+            android:id="@+id/editText" />
+
+        <TextView
+            android:text="箱"
+            android:gravity="center|right"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:id="@+id/textView4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/underline"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:text="单价"
+            android:gravity="center|left"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView5" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:gravity="center|right"
+            android:background="@android:color/transparent"
+            android:layout_weight="6"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:text="100"
+            android:ems="10"
+            android:id="@+id/editText1" />
+
+        <TextView
+            android:text="元"
+            android:gravity="center|right"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:id="@+id/textView6" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/underline"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:text="单品量"
+            android:gravity="center|left"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView7" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:gravity="center|right"
+            android:background="@android:color/transparent"
+            android:layout_weight="6"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:text="100"
+            android:ems="10"
+            android:id="@+id/editText2" />
+
+        <TextView
+            android:text="个"
+            android:gravity="center|right"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:id="@+id/textView8" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/underline"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:text="赠品"
+            android:gravity="center|left"
+            android:layout_weight="8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView9" />
+
+        <TextView
+            android:text="杯子"
+            android:gravity="center|right"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:id="@+id/textView10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/underline"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:text="赠品数量"
+            android:gravity="center|left"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView11" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:gravity="center|right"
+            android:background="@android:color/transparent"
+            android:layout_weight="6"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:text="100"
+            android:ems="10"
+            android:id="@+id/editText3" />
+
+        <TextView
+            android:text="打"
+            android:gravity="center|right"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/underline"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:text="支付方式"
+            android:gravity="center|left"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView13" />
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_weight="2" />
+
+    </LinearLayout>
+
+</LinearLayout>
