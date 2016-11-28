@@ -1,7 +1,6 @@
 package com.example.dagger22.mainscreen;
 
 import com.example.dagger22.data.component.NetComponent;
-import com.example.dagger22.data.module.MainScreenModule;
 import com.example.dagger22.util.CustomScope;
 
 import dagger.Component;

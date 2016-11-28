@@ -1,4 +1,4 @@
-package com.example.dagger22.data.module;
+package com.example.dagger22.mainscreen;
 
 import com.example.dagger22.mainscreen.MainScreenContract;
 import com.example.dagger22.util.CustomScope;

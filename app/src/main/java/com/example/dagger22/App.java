@@ -9,8 +9,8 @@ import com.example.dagger22.data.module.NetModule;
 
 /**
  * Created by liaodongming on 2016/11/24.
+ * https://adityaladwa.wordpress.com/2016/05/11/dagger-2-and-mvp-architecture/
  */
-
 public class App extends Application {
 
     private NetComponent mNetComponent;
